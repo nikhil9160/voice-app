@@ -1,8 +1,8 @@
 body {
     font-family: Arial, sans-serif;
-    background-color: #f0f0f0;
-    margin: 0;
-    padding: 0;
+    background-image: url("img2.jpg");
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -12,19 +12,22 @@ body {
 .container {
     text-align: center;
     padding: 20px;
-    background-color: #fff;
+    background-color: #0f324a;
     border-radius: 8px;
-    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    box-shadow: 10px 2px 10px rgba(0, 0, 0, 0.1);
 }
-
+#peerid
+{   padding: 20px;
+    color: #ccc;
+}
 h1 {
     font-size: 36px;
-    color: #333;
+    color: #fefefe;
 }
 
 p {
     font-size: 16px;
-    color: #666;
+    color: #ffffff;
     margin-bottom: 20px;
 }
 
